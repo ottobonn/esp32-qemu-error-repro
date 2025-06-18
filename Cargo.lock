@@ -881,6 +881,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "qemu-error-repro"
+version = "0.1.0"
+dependencies = [
+ "embedded-graphics",
+ "embedded-hal 1.0.0",
+ "esp-backtrace",
+ "esp-bootloader-esp-idf",
+ "esp-hal",
+ "esp-println",
+ "tinybmp",
+ "u8g2-fonts",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.40"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1155,20 +1169,6 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
-
-[[package]]
-name = "vfd-clock-esp32"
-version = "0.1.0"
-dependencies = [
- "embedded-graphics",
- "embedded-hal 1.0.0",
- "esp-backtrace",
- "esp-bootloader-esp-idf",
- "esp-hal",
- "esp-println",
- "tinybmp",
- "u8g2-fonts",
-]
 
 [[package]]
 name = "void"

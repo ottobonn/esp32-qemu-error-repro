@@ -1,5 +1,5 @@
 [package]
-name = "vfd-clock-esp32"
+name = "qemu-error-repro"
 version = "0.1.0"
 authors = ["Travis Geis <travis@travisgeis.com>"]
 edition = "2021"
