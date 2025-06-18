@@ -1,12 +1,20 @@
 # ESP32 QEMU Error Reproduction
 
+## Open in VSCode
+
+Open this repo in VSCode and build and start the dev container.
+
 ## Build in Docker container
+
+Build with Cargo from the container's terminal:
 
 ```
 cargo espflash save-image --chip esp32 --release --merge merged.bin
 ```
 
 ## Run in QEMU
+
+Run in the container:
 
 ```
 qemu-system-xtensa -nographic -machine esp32 -drive file=merged.bin,if=mtd,format=raw
